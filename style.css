@@ -1,0 +1,46 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+ .bat {
+    height: 340px;
+	width: 350px;
+}
+.container:hover .bat {
+    transform: rotate(-40deg);
+    transform-origin: top right;
+    transition: transform 0.5s ease-in;
+}
+.container {
+    border: 2px solid;
+}
+
+.ball {
+    height: 40px;
+	width: 40px;
+	background-color: red;
+	border-radius: 25px;
+	position: absolute;
+	left: 230px;
+	top: 280px;
+    transition: transform 1s ease-out 0.2s;
+}
+
+.container:hover .ball {
+	transform: translate(980px, -210px);
+}
+.click {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 500px;
+  
+}
+.click:hover {
+	background-color: green;
+}
